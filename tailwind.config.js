@@ -7,10 +7,13 @@ export default {
   theme: {
     extend: {
       colors:{
-        "lightBlack":"#353535"
+        "lightBlack":"#353535",
+        "lightBlue":"#8ECAE6",
+        "lime":"#70E000"
       },
       fontFamily:{
-        poppins:["Poppins", "sans-serif"]
+        poppins:["Poppins", "sans-serif"],
+        shoju:["Shojumaru", "cursive"]
       }
     },
   },
