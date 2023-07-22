@@ -12,7 +12,7 @@ const NavBar = ({ page }) => {
         </span>
       </div>
 
-      <span className={page === "home"? "font-normal hover:border-b-2 hover:border-b-lightBlack transition-all duration-100 lg:pr-5 lg:text-lg cursor-pointer" : "hidden"} onClick={()=> signOut(auth)}>Log Out</span>
+      <span className={page === "home"? "font-normal hover:border-b-2 hover:border-b-lightBlack transition-all duration-100 lg:pr-5 lg:text-md cursor-pointer" : "hidden"} onClick={()=> signOut(auth)}>Log Out</span>
     </nav>
   );
 };

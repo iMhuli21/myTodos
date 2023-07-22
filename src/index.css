@@ -14,3 +14,7 @@ input:focus
 {
   --tw-ring-shadow: 0 0 !important;
 }
+.active
+{
+  border-left: 5px solid green;
+}
